@@ -34,7 +34,7 @@ body{
 }
 .card{
     width: 250px;
-    height: 400px;
+    margin-top: 10px;
 }
 
 
@@ -117,11 +117,6 @@ h2{
 
 /* Movie Grid */
 
-#movieContainer{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-    gap:25px;
-}
 
 /* Movie Card */
 
