@@ -29,7 +29,7 @@ const movies=[
     NAME: "GUNTURKAARAM",
     language: "Telugu",
     genre: "Comedy",
-    rating: 7.6,
+    rating: 4.5,
     image: "IMAGES/guntur.webp",
     
 },
