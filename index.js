@@ -26,6 +26,14 @@ const movies=[
 
 },
 {
+    NAME: "GUNTURKAARAM",
+    language: "Telugu",
+    genre: "Comedy",
+    rating: 7.6,
+    image: "guntur.webp",
+    
+},
+{
     name: "Salaar",
     language: "Telugu",
     genre: "Action",
@@ -280,27 +288,60 @@ btn.addEventListener("click",function(){
     cont.innerHTML="";
     for(let i=0;i<movies.length;i++){
         if(lan.value===movies[i].language&&gen.value===movies[i].genre){
-            cont.innerHTML=cont.innerHTML+
-            `<div class="card">
-            
-                <div class="imamovie">
-                ${
-                    movies[i].link ? 
-                    `<a href="${movies[i].link}" target="_blank">
-                        <img class="movieimage"   src="${movies[i].image}">
-                    </a>`:
-                        `<img class="movieimage" src="${movies[i].image}" onclick="alert('no trailer for this')" ></img>`
-                      
-                }
-                            
-                </div>
+            if(movies[i].image==="guntur.webp"){
+                cont.innerHTML=cont.innerHTML+`
+                <div class="card">
+                    <div class="imamovie">
+                    ${
+                        movies[i].link?
+                        `<a href="${movies[i].link}" target="_blank">
+                            <img class="movieimage"   src="${movies[i].image}">
 
-                <h3>name: ${movies[i].name}</h3>
-                <p>language: ${movies[i].language}</P>
-                <p>genre: ${movies[i].genre}</p>
-                <p>rating: ${movies[i].rating}</P>
+                        </a>`:
+                            `<a href="image.html" target="_blank">
+                                <img class="movieimage" src="${movies[i].image}"  ></img>
+                            </a>`
+
+
+                }
+                </div>
+                    <h3>Name: ${movies[i].NAME}</h3>
+                    <p>language: ${movies[i].language}</P>
+                    <p>genre: ${movies[i].genre}</p>
+                    <p>rating: ${movies[i].rating}</P>
+                    <p>NO 1 BOCHULO MOVIE 🤮🤮🤮</P>
+                    <P>BUDGET:200 Crores</P>
+                    <P>COLLECTION:500 rupees</P>
+                    <h3>to know more information whose 500 is that click on picture </h3>
+                </div>
+                `
+
+            }
+            else {
+                cont.innerHTML=cont.innerHTML+
+                `<div class="card">
+            
+                    <div class="imamovie">
+                        ${
+                            
+                            movies[i].link ? 
+                            `<a href="${movies[i].link}" target="_blank">
+                                <img class="movieimage"   src="${movies[i].image}">
+                            </a>`:
+                                `<img class="movieimage" src="${movies[i].image}" onclick="alert('no trailer for this')" ></img>`
+                            
+                        }
+                                    
+                    </div>
+
+                    <h3>name: ${movies[i].name}</h3>
+                    <p>language: ${movies[i].language}</P>
+                    <p>genre: ${movies[i].genre}</p>
+                    <p>rating: ${movies[i].rating}</P>
                 
             </div>`
+            }
+            
             
         }
 }
