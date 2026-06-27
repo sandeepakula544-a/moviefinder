@@ -5,7 +5,7 @@ const movies=[
     language: "Telugu",
     genre: "Action",
     rating: 8.0,
-    image: "rrr.jpg",
+    image: "IMAGES/rrr.jpg",
     link:"https://youtu.be/NgBoMJy386M?si=ptynSI-5HHFhMf8e"
 },
 {
@@ -13,7 +13,7 @@ const movies=[
     language: "Telugu",
     genre: "Action",
     rating: 8.2,
-    image: "baahubali.jpg",
+    image: "IMAGES/baahubali.jpg",
      link:"https://youtu.be/NgBoMJy386M?si=ptynSI-5HHFhMf8e"
 },
 {
@@ -21,7 +21,7 @@ const movies=[
     language: "Telugu",
     genre: "Action",
     rating: 7.6,
-    image: "pushpa.jpg",
+    image: "IMAGES/pushpa.jpg",
      link:"https://youtu.be/Q1NKMPhP8PY?si=uP4IDQVh_6b9YX1-"
 
 },
@@ -30,7 +30,7 @@ const movies=[
     language: "Telugu",
     genre: "Comedy",
     rating: 7.6,
-    image: "guntur.webp",
+    image: "IMAGES/guntur.webp",
     
 },
 {
@@ -38,7 +38,7 @@ const movies=[
     language: "Telugu",
     genre: "Action",
     rating: 7.5,
-    image: "salaar.webp",
+    image: "IMAGES/salaar.webp",
      link:"https://youtu.be/4GPvYMKtrtI?si=6ISrUBkaVV4tm6_L"
 },
 {
@@ -46,7 +46,7 @@ const movies=[
     language: "Telugu",
     genre: "Action",
     rating: 7.0,
-    image: "akhanda.webp",
+    image: "IMAGES/akhanda.webp",
      link:"https://youtu.be/qlCBzdZSnlY?si=oEXepIM1sxprfG7p"
 },
 
@@ -56,35 +56,35 @@ const movies=[
     language: "Telugu",
     genre: "Comedy",
     rating: 8.2,
-    image: "jathi.webp"
+    image: "IMAGES/jathi.webp"
 },
 {
     name: "DJ Tillu",
     language: "Telugu",
     genre: "Comedy",
     rating: 7.3,
-    image: "djtillu.webp"
+    image: "IMAGES/djtillu.webp"
 },
 {
     name: "F2: Fun and Frustration",
     language: "Telugu",
     genre: "Comedy",
     rating: 7.1,
-    image: "fun.webp"
+    image: "IMAGES/fun.webp"
 },
 {
     name: "Venky",
     language: "Telugu",
     genre: "Comedy",
     rating: 7.8,
-    image: "venky.jpg"
+    image: "IMAGES/venky.jpg"
 },
 {
     name: "Ready",
     language: "Telugu",
     genre: "Comedy",
     rating: 7.3,
-    image: "ready.jpg"
+    image: "IMAGES/ready.jpg"
 },
 
 // Drama
@@ -93,35 +93,35 @@ const movies=[
     language: "Telugu",
     genre: "Drama",
     rating: 8.1,
-    image: "lucky-baskhar-movie-poster.jpg"
+    image: "IMAGES/lucky-baskhar-movie-poster.jpg"
 },
 {
     name: "Mahanati",
     language: "Telugu",
     genre: "Drama",
     rating: 8.4,
-    image: "Arundhati.webp"
+    image: "IMAGES/Arundhati.webp"
 },
 {
     name: "Sita Ramam",
     language: "Telugu",
     genre: "Drama",
     rating: 8.6,
-    image: "sitharamam.jpg"
+    image: "IMAGES/sitharamam.jpg"
 },
 {
     name: "Hi Nanna",
     language: "Telugu",
     genre: "Drama",
     rating: 8.3,
-    image: "hinaa.jpeg"
+    image: "IMAGES/hinaa.jpeg"
 },
 {
     name: "Fidaa",
     language: "Telugu",
     genre: "Drama",
     rating: 7.4,
-    image: "fidaa.jpg"
+    image: "IMAGES/fidaa.jpg"
 },
 
 // Thriller
@@ -130,35 +130,35 @@ const movies=[
     language: "Telugu",
     genre: "Thriller",
     rating: 8.3,
-    image: "rakshasudu_te.jpg"
+    image: "IMAGES/rakshasudu_te.jpg"
 },
 {
     name: "HIT: The First Case",
     language: "Telugu",
     genre: "Thriller",
     rating: 8.0,
-    image: "hit1st.webp"
+    image: "IMAGES/hit1st.webp"
 },
 {
     name: "Kshanam",
     language: "Telugu",
     genre: "Thriller",
     rating: 8.2,
-    image: "kshnam.webp"
+    image: "IMAGES/kshnam.webp"
 },
 {
     name: "Evaru",
     language: "Telugu",
     genre: "Thriller",
     rating: 8.1,
-    image: "evaru.webp"
+    image: "IMAGES/evaru.webp"
 },
 {
     name: "Agent Sai Srinivasa Athreya",
     language: "Telugu",
     genre: "Thriller",
     rating: 8.4,
-    image: "agent.webp"
+    image: "IMAGES/agent.webp"
 },
 
 // Romance
@@ -167,35 +167,35 @@ const movies=[
     language: "Telugu",
     genre: "Romance",
     rating: 8.3,
-    image: "hinaa.jpeg"
+    image: "IMAGES/hinaa.jpeg"
 },
 {
     name: "Sita Ramam",
     language: "Telugu",
     genre: "Romance",
     rating: 8.6,
-    image: "sitharamam.webp"
+    image: "IMAGES/sitharamam.webp"
 },
 {
     name: "Geetha Govindam",
     language: "Telugu",
     genre: "Romance",
     rating: 7.7,
-    image: "geetha.webp"
+    image: "IMAGES/geetha.webp"
 },
 {
     name: "Fidaa",
     language: "Telugu",
     genre: "Romance",
     rating: 7.4,
-    image: "fidaa.jpg"
+    image: "IMAGES/fidaa.jpg"
 },
 {
     name: "Ye Maaya Chesave",
     language: "Telugu",
     genre: "Romance",
     rating: 7.7,
-    image: "yeemayachesavae.webp"
+    image: "IMAGES/yeemayachesavae.webp"
 },
 
 // Horror
@@ -204,35 +204,35 @@ const movies=[
     language: "Telugu",
     genre: "Horror",
     rating: 7.8,
-    image: "masooda.webp"
+    image: "IMAGES/masooda.webp"
 },
 {
     name: "Virupaksha",
     language: "Telugu",
     genre: "Horror",
     rating: 7.9,
-    image: "vVirupaksha.webp"
+    image: "IMAGES/vVirupaksha.webp"
 },
 {
     name: "Arundhati",
     language: "Telugu",
     genre: "Horror",
     rating: 7.9,
-    image: "Arundhati.webp"
+    image: "IMAGES/Arundhati.webp"
 },
 {
     name: "Pindam",
     language: "Telugu",
     genre: "Horror",
     rating: 7.0,
-    image: "Pindam.jpg"
+    image: "IMAGES/Pindam.jpg"
 },
 {
     name: "Raju Gari Gadhi",
     language: "Telugu",
     genre: "Horror",
     rating: 7.2,
-    image: "Raju Gari Gadhi.webp"
+    image: "IMAGES/Raju Gari Gadhi.webp"
 },
 
 // Sci-Fi
@@ -241,35 +241,35 @@ const movies=[
     language: "Telugu",
     genre: "Sci-Fi",
     rating: 8.4,
-    image: "Aditya 369.avif"
+    image: "IMAGES/Aditya 369.avif"
 },
 {
     name: "Kalki 2898 AD",
     language: "Telugu",
     genre: "Sci-Fi",
     rating: 8.3,
-    image: "Kalki 2898 AD.jpg"
+    image: "IMAGES/Kalki 2898 AD.jpg"
 },
 {
     name: "Project Z",
     language: "Telugu",
     genre: "Sci-Fi",
     rating: 7.3,
-    image: "Project Z.webp"
+    image: "IMAGES/Project Z.webp"
 },
 {
     name: "7:11 PM",
     language: "Telugu",
     genre: "Sci-Fi",
     rating: 7.1,
-    image: "711 PM movie.webp"
+    image: "IMAGES/711 PM movie.webp"
 },
 {
     name: "Okka Kshanam",
     language: "Telugu",
     genre: "Sci-Fi",
     rating: 7.5,
-    image: "Okka Kshanam.webp"
+    image: "IMAGES/Okka Kshanam.webp"
 },
 
 ]
@@ -288,7 +288,7 @@ btn.addEventListener("click",function(){
     cont.innerHTML="";
     for(let i=0;i<movies.length;i++){
         if(lan.value===movies[i].language&&gen.value===movies[i].genre){
-            if(movies[i].image==="guntur.webp"){
+            if(movies[i].image==="IMAGES/guntur.webp"){
                 cont.innerHTML=cont.innerHTML+`
                 <div class="card">
                     <div class="imamovie">
